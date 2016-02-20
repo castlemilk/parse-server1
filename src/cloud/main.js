@@ -1,4 +1,4 @@
-var Parse = require('parse/node').Parse;
+// var Parse = require('parse/node').Parse;
 
 Parse.Cloud.define('hello', function(req, res) {
   res.success('Hello world!');
